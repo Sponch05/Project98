@@ -4,16 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="za.co.sponchware.www.connectedyouth.LandingActivity">
+    tools:context="za.co.sponchware.www.connectedyouth.MainActivity">
 
-    <fragment
-        android:id="@+id/fragment"
-        android:name="android.support.v4.app.ListFragment"
-        android:layout_width="395dp"
-        android:layout_height="681dp"
-        tools:layout_editor_absoluteY="-165dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        tools:layout_editor_absoluteX="-11dp" />
 </android.support.constraint.ConstraintLayout>
