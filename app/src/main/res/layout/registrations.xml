@@ -2,34 +2,38 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:weightSum="1">
+    android:id="@+id/btnSubmit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
-    <ImageButton
-        android:id="@+id/imageButton"
+    <ImageView
+        android:id="@+id/btnSubmit"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher_round"
-        android:layout_weight="0.67" />
+        android:layout_height="193dp"
+        android:backgroundTint="@drawable/button_background"
+        android:contentDescription=""
+        app:srcCompat="@drawable/youth_networking" />
 
     <EditText
         android:id="@+id/editTxtName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Full Names"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark" />
 
     <EditText
         android:id="@+id/editTxtEmail"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Email"
-        android:textAlignment="center" />
+        android:hint="Email:"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        tools:ignore="HardcodedText" />
 
     <EditText
         android:id="@+id/editTxtPhone"
@@ -62,6 +66,7 @@
         android:id="@+id/btnSubmit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
         android:text="Submit" />
 
 </LinearLayout>

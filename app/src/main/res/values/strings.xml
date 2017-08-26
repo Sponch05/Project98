@@ -20,7 +20,6 @@
     </style>
 
     <style name="button_style">
-        <item name="android:textColor:">#FFFFFF</item>
         <item name="android:background">@drawable/button_background</item>>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
