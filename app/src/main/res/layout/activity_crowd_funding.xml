@@ -6,4 +6,10 @@
     android:layout_height="match_parent"
     tools:context="za.co.sponchware.www.connectedyouth.CrowdFundingActivity">
 
+    <TextView
+        android:id="@+id/getFundsTxt"
+        android:layout_width="295dp"
+        android:layout_height="42dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="67dp" />
 </android.support.constraint.ConstraintLayout>
