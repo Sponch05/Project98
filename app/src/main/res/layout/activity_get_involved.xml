@@ -38,11 +38,11 @@
 
     <ImageButton
         android:id="@+id/imageButton19"
-        android:layout_width="288dp"
-        android:layout_height="78dp"
+        android:layout_width="270dp"
+        android:layout_height="61dp"
         app:srcCompat="@drawable/143439e1424454076o7496"
         tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="310dp" />
+        tools:layout_editor_absoluteY="322dp" />
 
     <ImageButton
         android:id="@+id/imageButton20"
