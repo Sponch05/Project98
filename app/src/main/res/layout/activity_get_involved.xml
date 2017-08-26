@@ -51,7 +51,8 @@
         android:layout_height="79dp"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/StepUpGetTested_003"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="404dp" />
+        tools:layout_editor_absoluteY="404dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
