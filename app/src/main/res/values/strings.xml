@@ -11,12 +11,14 @@
 
     </style>
     //layout text for style
+
     <style name="editText_style">
         <item name="android:gravity">center</item>
         <item name="android:background">@drawable/edit_textbackgound</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:ems">10</item>
     </style>
+
     <style name="button_style">
         <item name="android:background">@drawable/button_background</item>>
         <item name="android:layout_width">match_parent</item>
@@ -24,6 +26,7 @@
     </style>
 
     //textView styles
+
     <style name="txtView_style">
         <item name="android:textAlignment">center</item>
         <item name="android:layout_width">match_parent</item>
