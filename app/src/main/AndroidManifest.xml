@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ReportCrimeActivity" />
-        <activity android:name=".CrowdFundingActivity"></activity>
+        <activity android:name=".CrowdFundingActivity" />
+        <activity android:name=".GetFundingActivity"></activity>
     </application>
 
 </manifest>
