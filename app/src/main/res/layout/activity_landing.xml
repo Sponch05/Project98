@@ -33,49 +33,66 @@
                 android:id="@+id/getInvolvedTxt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="GetInvoloved" />
+                android:text="Get Involoved"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@android:color/holo_blue_dark" />
 
             <ImageButton
-                android:id="@+id/getInvolvedT"
-                android:layout_width="match_parent"
-                android:layout_height="339dp"
-                app:srcCompat="@mipmap/ic_launcher" />
+                android:id="@+id/imageButton"
+                android:layout_width="382dp"
+                android:layout_height="304dp"
+                android:background="@android:color/background_light"
+                android:backgroundTint="@android:color/background_light"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/picture1" />
 
             <TextView
                 android:id="@+id/learnTxtV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Learn/Awareness" />
+                android:text="Learn/Awareness"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@android:color/holo_blue_dark" />
 
             <ImageButton
-                android:id="@+id/learnBtn"
+                android:id="@+id/imageButton6"
                 android:layout_width="match_parent"
-                android:layout_height="304dp"
-                app:srcCompat="@mipmap/ic_launcher" />
+                android:layout_height="403dp"
+                android:background="@android:color/background_light"
+                android:backgroundTint="@android:color/background_light"
+                app:srcCompat="@drawable/raise_awerness" />
 
             <TextView
                 android:id="@+id/socialMTxt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Social Media" />
+                android:text="Social Media"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@android:color/holo_blue_dark" />
 
             <ImageButton
-                android:id="@+id/socialBtn"
+                android:id="@+id/imageButton5"
                 android:layout_width="match_parent"
-                android:layout_height="262dp"
-                app:srcCompat="@mipmap/ic_launcher_round" />
+                android:layout_height="403dp"
+                android:background="@android:color/background_light"
+                android:scaleType="fitEnd"
+                app:srcCompat="@drawable/social_media" />
 
             <TextView
                 android:id="@+id/myProfileTxt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="My Profile" />
+                android:text="My Profile"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@android:color/holo_blue_dark" />
 
             <ImageButton
                 android:id="@+id/imageButton2"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
-                app:srcCompat="@mipmap/ic_launcher" />
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                android:backgroundTint="@android:color/background_light"
+                app:srcCompat="@drawable/profile_img" />
 
         </LinearLayout>
     </ScrollView>
