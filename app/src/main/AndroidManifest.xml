@@ -20,7 +20,8 @@
         <activity android:name=".CrowdFundingActivity" />
         <activity android:name=".GetFundingActivity" />
         <activity android:name=".MentoshipActivity" />
-        <activity android:name=".BeMentorActivity"></activity>
+        <activity android:name=".BeMentorActivity" />
+        <activity android:name=".ProvideFundingActivity"></activity>
     </application>
 
 </manifest>
