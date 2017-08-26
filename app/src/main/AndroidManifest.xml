@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".ReportCrimeActivity" />
         <activity android:name=".CrowdFundingActivity" />
-        <activity android:name=".GetFundingActivity"></activity>
+        <activity android:name=".GetFundingActivity" />
+        <activity android:name=".MentoshipActivity" />
+        <activity android:name=".BeMentorActivity"></activity>
     </application>
 
 </manifest>
