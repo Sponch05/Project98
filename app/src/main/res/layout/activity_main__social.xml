@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="za.co.sponchware.www.connectedyouth.MainActivity_Social">
+
+    <SearchView
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <ImageButton
+        android:id="@+id/imgProfile"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:background="@android:color/background_light"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/profile_img"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <ImageButton
+        android:id="@+id/imgBtnFacebook"
+        android:layout_width="67dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/facebook"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <ImageButton
+        android:id="@+id/imgBtnLinkedin"
+        android:layout_width="65dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/linked_in"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <ImageButton
+        android:id="@+id/imgBtnInsta"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/insta"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <ImageButton
+        android:id="@+id/imgbtnTwitter"
+        android:layout_width="65dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/twitter"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <WebView
+        android:layout_width="360dp"
+        android:layout_height="359dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Search"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+</android.support.constraint.ConstraintLayout>
