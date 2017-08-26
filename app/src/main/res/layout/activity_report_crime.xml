@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="za.co.sponchware.www.connectedyouth.ReportCrimeActivity">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="382dp"
+        android:layout_height="112dp"
+        android:spinnerMode=" "
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <Button
+        android:id="@+id/reportNowBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report Now"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <ToggleButton
+        android:id="@+id/callBackToggleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:textOff="Don't even contact (SuperPrivate)"
+        android:textOn="Help me stop the crime "
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+</android.support.constraint.ConstraintLayout>
