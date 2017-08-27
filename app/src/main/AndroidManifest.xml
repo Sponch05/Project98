@@ -21,7 +21,8 @@
         <activity android:name=".GetFundingActivity" />
         <activity android:name=".MentoshipActivity" />
         <activity android:name=".BeMentorActivity" />
-        <activity android:name=".ProvideFundingActivity"></activity>
+        <activity android:name=".ProvideFundingActivity" />
+        <activity android:name=".ProojectShowcase"></activity>
     </application>
 
 </manifest>
