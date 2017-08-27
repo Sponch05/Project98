@@ -50,7 +50,7 @@
         tools:layout_editor_absoluteY="209dp" />
 
     <EditText
-        android:id="@+id/fundReason"
+        android:id="@+id/fundDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
