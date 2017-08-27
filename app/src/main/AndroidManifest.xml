@@ -9,11 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".NewLaunch">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.NewLaunch"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity android:name=".ReportCrimeActivity" />
@@ -23,7 +22,8 @@
         <activity android:name=".BeMentorActivity" />
         <activity android:name=".ProvideFundingActivity" />
         <activity android:name=".ProojectShowcase" />
-        <activity android:name=".my_profile"></activity>
+        <activity android:name=".my_profile" />
+        <activity android:name=".get_involved"></activity>
     </application>
 
 </manifest>

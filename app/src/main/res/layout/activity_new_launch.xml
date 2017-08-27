@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="za.co.sponchware.www.connectedyouth.MainActivity"
-    tools:layout_editor_absoluteY="81dp"
-    tools:layout_editor_absoluteX="0dp">
+    tools:context="za.co.sponchware.www.connectedyouth.NewLaunch">
+
 
     <ScrollView
         android:layout_width="368dp"
@@ -45,7 +44,7 @@
                 android:layout_height="304dp"
                 android:background="@android:color/background_light"
                 android:backgroundTint="@android:color/background_light"
-                android:onClick="getInvolvedBtn"
+                android:onClick="involvBtn"
                 android:scaleType="centerInside"
                 android:visibility="visible"
                 app:srcCompat="@drawable/picture1" />
@@ -82,7 +81,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="262dp"
                 android:background="@android:color/background_light"
+                android:onClick="socialBtn"
                 android:scaleType="fitEnd"
+                android:visibility="visible"
                 app:srcCompat="@drawable/social_media" />
 
             <TextView
