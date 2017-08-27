@@ -8,34 +8,50 @@
 
     <ImageButton
         android:id="@+id/getFundingImgBtn"
-        android:layout_width="210dp"
-        android:layout_height="139dp"
+        android:layout_width="170dp"
+        android:layout_height="112dp"
         app:srcCompat="@mipmap/ic_launcher"
         tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="89dp" />
+        tools:layout_editor_absoluteY="50dp" />
 
     <TextView
         android:id="@+id/getFundTxtV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Get Funding"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="72dp" />
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="33dp" />
 
     <TextView
         android:id="@+id/helpFundTxtV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Help Fund"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="259dp" />
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="186dp" />
 
     <ImageButton
         android:id="@+id/helpFundBtn"
-        android:layout_width="209dp"
-        android:layout_height="134dp"
+        android:layout_width="171dp"
+        android:layout_height="110dp"
         app:srcCompat="@mipmap/ic_launcher_round"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="276dp" />
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <TextView
+        android:id="@+id/voteTxtV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have Your Say"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="173dp"
+        android:layout_height="103dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteY="346dp"
+        tools:layout_editor_absoluteX="87dp" />
 
 </android.support.constraint.ConstraintLayout>

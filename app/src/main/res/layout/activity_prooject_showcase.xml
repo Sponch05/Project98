@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="za.co.sponchware.www.connectedyouth.ProojectShowcase">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="project @string/app_name"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="187dp"
+        android:layout_height="106dp"
+        android:text="@android:string/fingerprint_icon_content_description"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <ScrollView
+        android:layout_width="159dp"
+        android:layout_height="203dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rating"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount aquired so far"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vote & Comment"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upvote"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Down Vote"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Add Comment"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share online"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send comment"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Perceperctive"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+</android.support.constraint.ConstraintLayout>

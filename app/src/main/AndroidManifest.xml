@@ -19,7 +19,10 @@
         <activity android:name=".ReportCrimeActivity" />
         <activity android:name=".CrowdFundingActivity" />
         <activity android:name=".GetFundingActivity" />
-        <activity android:name=".MainActivity_Social"></activity>
+        <activity android:name=".MentoshipActivity" />
+        <activity android:name=".BeMentorActivity" />
+        <activity android:name=".ProvideFundingActivity" />
+        <activity android:name=".ProojectShowcase"></activity>
     </application>
 
 </manifest>
