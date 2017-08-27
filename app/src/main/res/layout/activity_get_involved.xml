@@ -7,15 +7,15 @@
     tools:context="za.co.sponchware.www.connectedyouth.get_involved">
 
     <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/crimeBtn"
         android:layout_width="309dp"
         android:layout_height="91dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/crime_prevention"
-        tools:layout_editor_absoluteY="61dp"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.506" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/crime_prevention"
+        tools:layout_editor_absoluteY="61dp" />
 
     <ImageButton
         android:id="@+id/imageButton16"
