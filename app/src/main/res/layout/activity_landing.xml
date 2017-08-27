@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="za.co.sponchware.www.connectedyouth.LandingActivity"
+    tools:context="za.co.sponchware.www.connectedyouth.MainActivity"
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp">
 
@@ -35,6 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Get Involoved"
+                android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:textColor="@android:color/holo_blue_dark" />
 
@@ -44,7 +45,9 @@
                 android:layout_height="304dp"
                 android:background="@android:color/background_light"
                 android:backgroundTint="@android:color/background_light"
-                android:scaleType="fitCenter"
+                android:onClick="getInvolvedBtn"
+                android:scaleType="centerInside"
+                android:visibility="visible"
                 app:srcCompat="@drawable/picture1" />
 
             <TextView
@@ -52,6 +55,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Learn/Awareness"
+                android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:textColor="@android:color/holo_blue_dark" />
 
@@ -61,6 +65,7 @@
                 android:layout_height="403dp"
                 android:background="@android:color/background_light"
                 android:backgroundTint="@android:color/background_light"
+                android:visibility="visible"
                 app:srcCompat="@drawable/raise_awerness" />
 
             <TextView
@@ -68,6 +73,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Social Media"
+                android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:textColor="@android:color/holo_blue_dark" />
 
@@ -84,11 +90,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="My Profile"
+                android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:textColor="@android:color/holo_blue_dark" />
 
             <ImageButton
-                android:id="@+id/ "
+                android:id="@+id/imgBtn99"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/background_light"

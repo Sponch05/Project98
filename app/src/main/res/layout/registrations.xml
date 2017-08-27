@@ -8,11 +8,10 @@
     android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/btnSubmit"
+        android:id="@+id/btnSubmit2"
         android:layout_width="match_parent"
         android:layout_height="193dp"
         android:backgroundTint="@drawable/button_background"
-        android:contentDescription=""
         app:srcCompat="@drawable/youth_networking" />
 
     <EditText
@@ -63,7 +62,7 @@
         android:textAlignment="center" />
 
     <Button
-        android:id="@+id/btnSubmit"
+        android:id="@+id/btnSubmit100"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_background"

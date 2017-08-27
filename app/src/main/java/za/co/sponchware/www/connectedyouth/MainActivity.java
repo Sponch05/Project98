@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_landing);
     }
 
-    public void getInvolvedBtnn(View view) {
+    public void getInvolvedBtn(View view) {
 
         Intent intent = new Intent(this, get_involved.class);
         startActivity(intent);
