@@ -45,7 +45,7 @@
                 android:id="@+id/checkBox5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Computers & Tech" />
+                android:text="Computers Tech" />
 
             <CheckBox
                 android:id="@+id/checkBox6"

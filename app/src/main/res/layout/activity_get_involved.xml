@@ -22,7 +22,7 @@
         android:layout_width="288dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/crowdfunding"
+        app:srcCompat="@drawable/crowdfunding2"
         tools:layout_editor_absoluteX="48dp"
         tools:layout_editor_absoluteY="160dp" />
 
@@ -40,7 +40,7 @@
         android:layout_width="280dp"
         android:layout_height="79dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/StepUpGetTested_003"
+        app:srcCompat="@drawable/stepupget_tested_003"
         tools:layout_editor_absoluteY="349dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent" />
